@@ -8,18 +8,40 @@
 
 /* Begin PBXBuildFile section */
 		126DF84F26BA807F00C933FF /* RSTTur_TestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126DF84E26BA807F00C933FF /* RSTTur_TestApp.swift */; };
-		126DF85126BA807F00C933FF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126DF85026BA807F00C933FF /* ContentView.swift */; };
 		126DF85326BA808700C933FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 126DF85226BA808700C933FF /* Assets.xcassets */; };
 		126DF85626BA808700C933FF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 126DF85526BA808700C933FF /* Preview Assets.xcassets */; };
+		126DF85E26BA80CE00C933FF /* Rsttur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126DF85D26BA80CE00C933FF /* Rsttur.swift */; };
+		126DF86226BAD80000C933FF /* HTTPError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126DF86126BAD80000C933FF /* HTTPError.swift */; };
+		126DF86426BAD86E00C933FF /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126DF86326BAD86E00C933FF /* APIService.swift */; };
+		126DF86826BAD94F00C933FF /* CategoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126DF86726BAD94F00C933FF /* CategoryRow.swift */; };
+		126DF86A26BAD96000C933FF /* CategoryRowModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126DF86926BAD96000C933FF /* CategoryRowModel.swift */; };
+		126DF86C26BAD97400C933FF /* CategoryList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126DF86B26BAD97400C933FF /* CategoryList.swift */; };
+		126DF86E26BAD98100C933FF /* CategoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126DF86D26BAD98100C933FF /* CategoryViewModel.swift */; };
+		126DF87126BAD9EC00C933FF /* TourRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126DF87026BAD9EC00C933FF /* TourRow.swift */; };
+		126DF87526BADA0400C933FF /* ToursList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126DF87426BADA0400C933FF /* ToursList.swift */; };
+		126DF87726BADA2300C933FF /* TourRowModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126DF87626BADA2300C933FF /* TourRowModel.swift */; };
+		12787E4C26BBAE7300CFA0C0 /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12787E4B26BBAE7300CFA0C0 /* Color+Extensions.swift */; };
+		12787E4F26BBC34700CFA0C0 /* Publisher+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12787E4E26BBC34700CFA0C0 /* Publisher+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		126DF84B26BA807F00C933FF /* RSTTur-Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RSTTur-Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		126DF84E26BA807F00C933FF /* RSTTur_TestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSTTur_TestApp.swift; sourceTree = "<group>"; };
-		126DF85026BA807F00C933FF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		126DF85226BA808700C933FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		126DF85526BA808700C933FF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		126DF85726BA808700C933FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		126DF85D26BA80CE00C933FF /* Rsttur.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rsttur.swift; sourceTree = "<group>"; };
+		126DF86126BAD80000C933FF /* HTTPError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPError.swift; sourceTree = "<group>"; };
+		126DF86326BAD86E00C933FF /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		126DF86726BAD94F00C933FF /* CategoryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRow.swift; sourceTree = "<group>"; };
+		126DF86926BAD96000C933FF /* CategoryRowModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRowModel.swift; sourceTree = "<group>"; };
+		126DF86B26BAD97400C933FF /* CategoryList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryList.swift; sourceTree = "<group>"; };
+		126DF86D26BAD98100C933FF /* CategoryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewModel.swift; sourceTree = "<group>"; };
+		126DF87026BAD9EC00C933FF /* TourRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TourRow.swift; sourceTree = "<group>"; };
+		126DF87426BADA0400C933FF /* ToursList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToursList.swift; sourceTree = "<group>"; };
+		126DF87626BADA2300C933FF /* TourRowModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TourRowModel.swift; sourceTree = "<group>"; };
+		12787E4B26BBAE7300CFA0C0 /* Color+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extensions.swift"; sourceTree = "<group>"; };
+		12787E4E26BBC34700CFA0C0 /* Publisher+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Publisher+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,10 +75,12 @@
 			isa = PBXGroup;
 			children = (
 				126DF84E26BA807F00C933FF /* RSTTur_TestApp.swift */,
-				126DF85026BA807F00C933FF /* ContentView.swift */,
-				126DF85226BA808700C933FF /* Assets.xcassets */,
-				126DF85726BA808700C933FF /* Info.plist */,
-				126DF85426BA808700C933FF /* Preview Content */,
+				126DF86F26BAD98500C933FF /* CategoryView */,
+				126DF87826BADA4D00C933FF /* TourView */,
+				126DF86626BAD92000C933FF /* Models */,
+				126DF86526BAD90E00C933FF /* Helpers */,
+				12787E4A26BBAE5600CFA0C0 /* Extensions */,
+				12787E4D26BBC1B100CFA0C0 /* Supporting files */,
 			);
 			path = "RSTTur-Test";
 			sourceTree = "<group>";
@@ -67,6 +91,63 @@
 				126DF85526BA808700C933FF /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		126DF86526BAD90E00C933FF /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				126DF86126BAD80000C933FF /* HTTPError.swift */,
+				126DF86326BAD86E00C933FF /* APIService.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		126DF86626BAD92000C933FF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				126DF85D26BA80CE00C933FF /* Rsttur.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		126DF86F26BAD98500C933FF /* CategoryView */ = {
+			isa = PBXGroup;
+			children = (
+				126DF86B26BAD97400C933FF /* CategoryList.swift */,
+				126DF86726BAD94F00C933FF /* CategoryRow.swift */,
+				126DF86926BAD96000C933FF /* CategoryRowModel.swift */,
+				126DF86D26BAD98100C933FF /* CategoryViewModel.swift */,
+			);
+			path = CategoryView;
+			sourceTree = "<group>";
+		};
+		126DF87826BADA4D00C933FF /* TourView */ = {
+			isa = PBXGroup;
+			children = (
+				126DF87426BADA0400C933FF /* ToursList.swift */,
+				126DF87026BAD9EC00C933FF /* TourRow.swift */,
+				126DF87626BADA2300C933FF /* TourRowModel.swift */,
+			);
+			path = TourView;
+			sourceTree = "<group>";
+		};
+		12787E4A26BBAE5600CFA0C0 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				12787E4B26BBAE7300CFA0C0 /* Color+Extensions.swift */,
+				12787E4E26BBC34700CFA0C0 /* Publisher+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		12787E4D26BBC1B100CFA0C0 /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				126DF85426BA808700C933FF /* Preview Content */,
+				126DF85226BA808700C933FF /* Assets.xcassets */,
+				126DF85726BA808700C933FF /* Info.plist */,
+			);
+			path = "Supporting files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +219,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				126DF85126BA807F00C933FF /* ContentView.swift in Sources */,
+				126DF85E26BA80CE00C933FF /* Rsttur.swift in Sources */,
+				126DF86A26BAD96000C933FF /* CategoryRowModel.swift in Sources */,
+				12787E4F26BBC34700CFA0C0 /* Publisher+Extensions.swift in Sources */,
+				126DF87726BADA2300C933FF /* TourRowModel.swift in Sources */,
+				126DF86426BAD86E00C933FF /* APIService.swift in Sources */,
+				126DF86226BAD80000C933FF /* HTTPError.swift in Sources */,
+				126DF86826BAD94F00C933FF /* CategoryRow.swift in Sources */,
+				12787E4C26BBAE7300CFA0C0 /* Color+Extensions.swift in Sources */,
+				126DF87126BAD9EC00C933FF /* TourRow.swift in Sources */,
 				126DF84F26BA807F00C933FF /* RSTTur_TestApp.swift in Sources */,
+				126DF86E26BAD98100C933FF /* CategoryViewModel.swift in Sources */,
+				126DF86C26BAD97400C933FF /* CategoryList.swift in Sources */,
+				126DF87526BADA0400C933FF /* ToursList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,10 +360,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"RSTTur-Test/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"RSTTur-Test/Supporting files/Preview Content\"";
 				DEVELOPMENT_TEAM = 8FT674V95S;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "RSTTur-Test/Info.plist";
+				INFOPLIST_FILE = "RSTTur-Test/Supporting files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -290,10 +382,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"RSTTur-Test/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"RSTTur-Test/Supporting files/Preview Content\"";
 				DEVELOPMENT_TEAM = 8FT674V95S;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "RSTTur-Test/Info.plist";
+				INFOPLIST_FILE = "RSTTur-Test/Supporting files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
