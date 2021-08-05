@@ -1,5 +1,5 @@
 //
-//  TourRow.swift
+//  TourRowView.swift
 //  RSTTur-Test
 //
 //  Created by Ibragim Akaev on 04/08/2021.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct TourRow: View {
+struct TourRowView: View {
     @ObservedObject var tour: TourRowModel
     
     var body: some View {

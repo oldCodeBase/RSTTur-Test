@@ -11,7 +11,7 @@ import SwiftUI
 struct RSTTur_TestApp: App {
     var body: some Scene {
         WindowGroup {
-            CategoryList()
+            CategoryListView()
         }
     }
 }

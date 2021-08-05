@@ -1,5 +1,5 @@
 //
-//  CategoryList.swift
+//  CategoryListView.swift
 //  RSTTur-Test
 //
 //  Created by Ibragim Akaev on 04/08/2021.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct CategoryList: View {
+struct CategoryListView: View {
     @ObservedObject var viewModel = CategoryViewModel()
     
     var body: some View {
@@ -37,9 +37,9 @@ struct CategoryList: View {
     private var categories: some View {
         List(viewModel.categories) { category in
             NavigationLink(
-                destination: ToursList(model: viewModel.tours.filter { $0.type == category.type }),
+                destination: ToursListView(model: viewModel.tours.filter { $0.type == category.type }),
                 label: {
-                    CategoryRow(category: category)
+                    CategoryRowView(category: category)
                 })
         }
     }

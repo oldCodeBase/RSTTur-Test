@@ -1,5 +1,5 @@
 //
-//  CategoryRow.swift
+//  CategoryRowView.swift
 //  RSTTur-Test
 //
 //  Created by Ibragim Akaev on 04/08/2021.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct CategoryRow: View {
+struct CategoryRowView: View {
     @ObservedObject var category: CategoryRowModel
     var body: some View {
         HStack {
@@ -23,9 +23,9 @@ struct CategoryRow: View {
     }
 }
 
-struct CategoryRow_Previews: PreviewProvider {
+struct CategoryRowView_Previews: PreviewProvider {
     static var previews: some View {
-        CategoryRow(category: CategoryRowModel(category: Category(name: "Интересные места", type: .food, colour: .cyan10, count: 15)))
+        CategoryRowView(category: CategoryRowModel(category: Category(name: "Интересные места", type: .food, colour: .cyan10, count: 15)))
     }
 }
 

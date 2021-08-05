@@ -1,5 +1,5 @@
 //
-//  ToursList.swift
+//  ToursListView.swift
 //  RSTTur-Test
 //
 //  Created by Ibragim Akaev on 04/08/2021.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ToursList: View {
+struct ToursListView: View {
     var viewModel: [TourRowModel] = []
     
     init(model: [TourRowModel]) {
@@ -16,7 +16,7 @@ struct ToursList: View {
     
     var body: some View {
         List(viewModel) { tour in
-            TourRow(tour: tour)
+            TourRowView(tour: tour)
                 .onTapGesture { open2Gis(tour.longitude, tour.latitude) }
                 .navigationTitle("Объекты")
         }
